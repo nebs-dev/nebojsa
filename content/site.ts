@@ -15,7 +15,7 @@ export const SITE = {
 // EMAIL_ADDRESS only; the mailto link and label derive from it.
 export const SITE_URL = "https://nebs.studio";
 
-const EMAIL_ADDRESS = "nebojsa.stojanovic0@gmail.com";
+const EMAIL_ADDRESS = "nebojsa@nebs.studio";
 
 export const CONTACT = {
   website: { href: SITE_URL, label: "nebs.studio" },
