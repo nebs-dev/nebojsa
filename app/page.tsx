@@ -1,6 +1,7 @@
 import { SiteHeader } from "@/components/SiteHeader";
 import { Hero } from "@/components/Hero";
 import { ProfileStrip } from "@/components/ProfileStrip";
+import { Experience } from "@/components/Experience";
 import { SelectedWork } from "@/components/SelectedWork";
 import { WhatIDo } from "@/components/WhatIDo";
 import { IndependentProducts } from "@/components/IndependentProducts";
@@ -14,6 +15,7 @@ export default function HomePage() {
       <main>
         <Hero />
         <ProfileStrip />
+        <Experience />
         <SelectedWork />
         <WhatIDo />
         <IndependentProducts />

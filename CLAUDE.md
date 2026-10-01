@@ -16,7 +16,7 @@ Avoid: "passionate", "I love coding", skill bars, animated logos, fake metrics/c
 ## Copy rules
 - All copy is in `content/site.ts`. Edit there, not in components.
 - Never invent metrics, outcomes, clients or scale. Only claims supported by the CV / dossier.
-- Notes section and LoadIQ removed for now. Case-study links removed until pages exist.
+- Notes section removed for now. Case-study links removed until pages exist. Professional experience = names only (no dates, titles, logos). LoadIQ is live (loadiq.fit).
 - Placeholders still to replace: `CONTACT.email`, `CONTACT.linkedin` in `content/site.ts`.
 
 ## Design tokens (`app/globals.css`)

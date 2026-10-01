@@ -163,6 +163,11 @@ a:focus-visible, summary:focus-visible {
 .caps__title { font-size: 24px; line-height: 1.2; font-weight: 400; margin: 6px 0 8px; }
 .caps__text { font-family: var(--sans); font-size: 15px; line-height: 1.6; color: var(--body); }
 
+/* ---- Professional experience --------------------------------------------- */
+
+.companies { display: flex; flex-wrap: wrap; gap: 10px 32px; }
+.companies li { font-size: 21px; line-height: 1.3; color: var(--body); }
+
 /* ---- Independent products rows ----------------------------------- */
 
 .rows { border-bottom: 1px solid var(--rule); }
@@ -258,6 +263,10 @@ a:focus-visible, summary:focus-visible {
   .caps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 72px; row-gap: 56px; }
   .caps__title { font-size: 27px; margin: 10px 0 12px; }
   .caps__text { font-size: 16px; }
+
+  /* Experience */
+  .companies { gap: 16px 44px; }
+  .companies li { font-size: 24px; }
 
   /* Products */
   .rows > li { padding: 20px 0; }

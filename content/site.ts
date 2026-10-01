@@ -52,6 +52,23 @@ export const PROFILE = [
   { label: "Open to", value: "Senior roles, consulting, product collaborations" },
 ] as const;
 
+export const EXPERIENCE_LABEL = "Professional experience";
+export const EXPERIENCE_INTRO =
+  "Companies and product teams I’ve worked with across more than a decade of software engineering.";
+
+export const COMPANIES = [
+  "GoCierge",
+  "Tiketti",
+  "Zeply",
+  "General Magic",
+  "Layer",
+  "2amigos!",
+  "Marrow Labs",
+  "Gauss Development",
+  "Crionis",
+  "Thirtymin App",
+] as const;
+
 export type Engagement = {
   index: string;
   name: string;
@@ -152,18 +169,24 @@ export const PRODUCTS: readonly Product[] = [
   },
   {
     name: "Manifestacije.hr",
-    tag: "Local events",
-    text: "Local event discovery.",
+    tag: "Events",
+    text: "Regional event discovery platform.",
     links: [{ label: "Live site ↗", href: "https://manifestacije.hr", ariaLabel: "Manifestacije.hr live site (external link)" }],
   },
   {
     name: "Kiroq",
     tag: "Developer tooling",
-    text: "Developer CLI and AI-context tooling.",
+    text: "Local-first developer CLI and project-context tooling for AI-assisted development.",
     links: [
       { label: "npm ↗", href: "https://www.npmjs.com/package/kiroq", ariaLabel: "Kiroq on npm (external link)" },
       { label: "GitHub ↗", href: "https://github.com/nebs-dev/kiroq", ariaLabel: "Kiroq on GitHub (external link)" },
     ],
+  },
+  {
+    name: "LoadIQ",
+    tag: "Wearable data",
+    text: "Wearable data ingestion and AI-assisted coaching product.",
+    links: [{ label: "Live site ↗", href: "https://loadiq.fit/", ariaLabel: "LoadIQ live site (external link)" }],
   },
 ];
 
