@@ -27,6 +27,7 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
   openGraph: {
     type: "website",
+    url: "/",
     title: SITE.title,
     description: SITE.description,
     siteName: SITE.name,
