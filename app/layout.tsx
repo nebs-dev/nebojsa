@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     locale: "en",
   },
-  twitter: { card: "summary", title: SITE.title, description: SITE.description },
+  twitter: { card: "summary_large_image", title: SITE.title, description: SITE.description },
 };
 
 export const viewport: Viewport = {
