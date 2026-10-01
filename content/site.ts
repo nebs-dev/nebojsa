@@ -13,9 +13,12 @@ export const SITE = {
 
 // Single source for contact details. To move to a custom-domain email, change
 // EMAIL_ADDRESS only; the mailto link and label derive from it.
+export const SITE_URL = "https://nebs.studio";
+
 const EMAIL_ADDRESS = "nebojsa.stojanovic0@gmail.com";
 
 export const CONTACT = {
+  website: { href: SITE_URL, label: "nebs.studio" },
   email: { href: `mailto:${EMAIL_ADDRESS}`, label: EMAIL_ADDRESS, ariaLabel: `Email ${EMAIL_ADDRESS}` },
   linkedin: {
     href: "https://www.linkedin.com/in/nestojanovic/",

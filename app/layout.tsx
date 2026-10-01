@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Newsreader, Instrument_Sans } from "next/font/google";
-import { SITE } from "@/content/site";
+import { SITE, SITE_URL } from "@/content/site";
 import "./globals.css";
 
 const serif = Newsreader({
@@ -17,8 +17,8 @@ const sans = Instrument_Sans({
   variable: "--font-instrument-sans",
 });
 
-// Set NEXT_PUBLIC_SITE_URL (e.g. https://example.com) once the production domain exists.
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+// Production origin: SITE_URL in content/site.ts; NEXT_PUBLIC_SITE_URL overrides it (e.g. previews).
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? SITE_URL;
 
 export const metadata: Metadata = {
   ...(siteUrl && { metadataBase: new URL(siteUrl), alternates: { canonical: "/" } }),
