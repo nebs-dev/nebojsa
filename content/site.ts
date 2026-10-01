@@ -160,7 +160,10 @@ export const PRODUCTS: readonly Product[] = [
     name: "Kiroq",
     tag: "Developer tooling",
     text: "Developer CLI and AI-context tooling.",
-    links: [{ label: "GitHub ↗", href: "https://github.com/nebs-dev/kiroq", ariaLabel: "Kiroq on GitHub (external link)" }],
+    links: [
+      { label: "npm ↗", href: "https://www.npmjs.com/package/kiroq", ariaLabel: "Kiroq on npm (external link)" },
+      { label: "GitHub ↗", href: "https://github.com/nebs-dev/kiroq", ariaLabel: "Kiroq on GitHub (external link)" },
+    ],
   },
 ];
 
